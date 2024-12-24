@@ -1,0 +1,242 @@
+13. Set up a CI/CD pipeline to automate the building, testing, and deployment of a containerized application
+Set Up Jenkins on a Local Machine or Server
+
+Install Jenkins and configure it for CI/CD pipeline automation.
+Create a Dockerfile to Containerize a Sample Application
+
+Write a Dockerfile for a simple application you want to containerize.
+Write a Jenkinsfile to Automate the Process
+
+Write a Jenkinsfile to automate building the Docker image, running tests, and deploying it to the cloud.
+Configure Jenkins to Trigger Builds Upon Code Commits
+
+Configure Jenkins to trigger builds automatically when a code commit is made to the repository.
+
+
+
+
+14. Implement Continuous Deployment using GitHub Actions to deploy a Dockerized application
+Set Up a GitHub Repository and Push a Simple Dockerized Application
+
+Create a GitHub repository and push a simple Dockerized application.
+Create a GitHub Actions Workflow to Automatically Build and Push Docker Image
+
+Write a GitHub Actions workflow to build and push the Docker image to Docker Hub.
+Automate Deployment to a Cloud Platform
+
+Set up automated deployment to a cloud platform (e.g., AWS, Azure, Google Kubernetes Engine).
+Test the CI/CD Pipeline by Pushing New Code Changes
+
+Push new code changes to GitHub and ensure the pipeline triggers and deploys the application automatically.
+
+
+
+
+
+15. Create a GitHub Repository and Implement Version Control
+Set Up a Repository for a Team Project
+
+Create a new GitHub repository for the team project.
+Create Branches for Individual Modules
+
+Create separate branches for different modules or features of the project.
+Merge Branches with Pull Requests After Code Reviews
+
+Create pull requests to merge branches after review.
+Resolve Conflicts During Branch Merging
+
+Resolve any merge conflicts that occur during pull request reviews.
+Document the Workflow Using the README File
+
+Document the team workflow and practices in the repository’s README.md.
+
+
+
+
+
+
+
+16. Containerize a Python Flask Application Using Docker
+Write a Simple Python Flask Application for a "To-Do" List
+
+Write a Flask application (app.py) with basic functionality for a "To-Do" list.
+Create a Dockerfile to Containerize the Application
+
+Write a Dockerfile to containerize the Flask application.
+Build and Run the Docker Container Locally
+
+Build the Docker image and run the container on your local machine.
+Test the Application’s Functionality Inside the Container
+
+Test if the Flask "To-Do" application works as expected in the Docker container.
+Push the Docker Image to Docker Hub
+
+Push the containerized Flask app to Docker Hub for sharing.
+
+
+
+
+
+
+17. Push and Pull Docker Images Using Docker Hub
+Create a Docker Image for a Static HTML Website
+
+Create a simple static HTML website and build a Docker image for it.
+Tag and Push the Image to Docker Hub
+
+Use the command docker push <username>/static-website to push the image to Docker Hub.
+Pull the Image from Docker Hub and Run It on Another Machine
+
+Pull the image on another machine using docker pull <username>/static-website and run the container.
+Submit Docker Commands and Screenshots for Each Step
+
+Provide the command line steps and screenshots demonstrating pushing and pulling Docker images.
+
+
+
+
+
+
+18. Deploy a Multi-Container Application Using Kubernetes
+Create a Multi-Container Application
+
+Set up a multi-container application with a frontend, backend, and database.
+Define a Kubernetes YAML File for Deployment and Services
+
+Write Kubernetes YAML files to define deployments and services for each container.
+Deploy the Application Using kubectl Commands
+
+Deploy the multi-container application using kubectl apply -f <file-name>.
+Monitor the Pods and Services Status
+
+Use kubectl get pods and kubectl get services to monitor the application.
+Scale the Frontend Container to Handle Increased Load
+
+Scale the frontend container using kubectl scale deployment <frontend-deployment-name> --replicas=<desired-number>.
+
+
+
+
+
+
+19. Create a CI/CD Pipeline Using GitHub Actions
+Set Up a GitHub Repository for a Containerized Flask Application
+
+Create a GitHub repository and push a containerized Flask application.
+Define a GitHub Actions Workflow File to Automate Testing and Deployment
+
+Create a .github/workflows/ci-cd.yml file to automate building, testing, and deployment.
+Add Steps to Build, Test, and Push Docker Images
+
+Write steps in the workflow file to build, test, and push Docker images to Docker Hub.
+Deploy the Application to a Cloud Platform (Heroku/AWS)
+
+Add deployment steps to deploy the application to a cloud platform like AWS, GCP, or Heroku.
+
+
+
+
+
+
+
+20. Create a New GitHub Repository for a Personal Project
+Create a GitHub Repository
+
+Create a new repository for your personal project.
+Clone the Repository to Your Local Machine
+
+Use git clone <repository-url> to clone the repository.
+Edit the README.md File
+
+Open the README.md and add a project description.
+Stage, Commit, and Push Your Changes
+
+Use git add ., git commit -m "Add project description", and git push to push changes to GitHub.
+
+
+
+
+21. Clone an Existing GitHub Repository to Your Local Machine
+Clone a Repository
+
+Clone an existing repository to your local machine using git clone <repository-url>.
+Make a Small Edit
+
+Open a file in the repository and make a small edit (e.g., fix a typo).
+Save Your Changes
+
+Save the file after making the edit.
+
+
+
+
+22. Commit Changes Locally and Push Them to GitHub
+Clone a Repository
+
+Clone the repository if not done already.
+Modify a File
+
+Make a change to a file like the README.md.
+Stage and Commit the Changes
+
+Stage and commit using git add . and git commit.
+Push the Changes to GitHub
+
+Push your committed changes using git push.
+
+
+
+
+23. Pull Latest Changes from GitHub
+Clone a Repository
+
+Clone a repository if it’s not cloned already.
+Ask a Collaborator to Make a Change
+
+Ask a collaborator to push changes.
+Pull the Latest Changes
+
+Use git pull origin main to fetch the latest changes.
+Verify the Changes
+
+Ensure that the changes from your collaborator are in your local repository.
+
+
+
+
+
+24. Create a New Branch for Feature-login
+Create a New Branch
+
+Create a branch called feature-login using git checkout -b feature-login.
+Add a Login Function in login.py
+
+Implement a simple login function in login.py.
+Commit and Push the Changes
+
+Commit your changes and push the branch to GitHub.
+Create a Pull Request and Merge
+
+Create a pull request to merge feature-login into the main branch.
+
+
+
+
+
+
+25. Work with Team Members on a Forked Repository
+Fork a Repository
+
+Fork a repository to your GitHub account.
+Clone the Repository
+
+Clone the forked repository to your local machine.
+Create a Branch for Your Feature
+
+Create a new branch for the feature you will work on.
+Implement Your Changes
+
+Implement the feature and push it to your forked repository.
+Submit a Pull Request
+
+Submit a pull request from your forked repository to the original repository.

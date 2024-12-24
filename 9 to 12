@@ -1,0 +1,88 @@
+9
+Fork a public GitHub repo.
+Clone it to your local machine: git clone <repo-url>.
+Create a new branch: git checkout -b <branch-name>.
+Make changes (add feature, fix bug, update README).
+Commit and push:
+
+bash
+Copy code
+git add . 
+git commit -m "Change description" 
+git push origin <branch-name>
+
+Create a pull request on GitHub.
+Review and respond to feedback if needed.
+Merge the pull request once approved.
+Submit the pull request link and summary of changes.
+
+
+
+10
+Clone the repo: git clone <repo-url>.
+Create and switch to a new branch: git checkout -b <branch-name>.
+Make changes and commit: git add ., git commit -m "change".
+Push to GitHub: git push origin <branch-name>.
+Pull latest changes: git pull origin main.
+Merge main into your branch: git merge main.
+Resolve conflicts and commit.
+Push changes and create a pull request.
+
+
+
+11
+Create index.html:
+
+Create a file named index.html with basic HTML content.
+Create Dockerfile:
+
+Write the following in the Dockerfile:
+Dockerfile
+Copy code
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html/
+Build Docker Image:
+
+Run: docker build -t static-website .
+Run the Container:
+
+Run: docker run -d -p 8080:80 static-website
+Access the Website:
+
+Open http://localhost:8080 in your browser.
+
+
+
+12
+Create Flask API:
+
+Write app.py with a basic Flask route.
+Create Dockerfile:
+
+Use Python image, install Flask, copy app.py, expose port 5000.
+Build Docker Image:
+
+bash
+Copy code
+docker build -t flask-api .
+Push Docker Image:
+
+bash
+Copy code
+docker push <your-dockerhub-username>/flask-api
+Create Kubernetes Manifests:
+
+deployment.yaml (deploy Flask app)
+service.yaml (expose app via NodePort)
+Apply Kubernetes Manifests:
+
+bash
+Copy code
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+Access API:
+
+Find NodePort with kubectl get services flask-api-service
+Access via http://<NodeIP>:<NodePort>
+
+
